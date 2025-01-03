@@ -25,4 +25,4 @@ jobs:
         with:
           context: "{{defaultContext}}"
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pipeline-testing:latest , ${{ secrets.DOCKERHUB_USERNAME }}/pipeline-testing:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/papigateway:latest , ${{ secrets.DOCKERHUB_USERNAME }}/papigateway:${{ github.sha }}
